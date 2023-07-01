@@ -1,0 +1,45 @@
+.toggle-user-menu {
+  position: absolute;
+  left: 8px;
+  bottom: 75px;
+  background: rgba(1, 141, 5, 0.99);
+  width: 282px;
+  border-radius: 5px;
+  padding: 10px 12px;
+  color: white;
+}
+
+.toggle-user-menu hr {
+  color: black;
+  background: black;
+}
+
+.toggle-user-menu-clear {
+  display: flex;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.toggle-user-menu-clear svg {
+  margin-right: 0.5rem;
+}
+
+.toggle-user-menu-settings {
+  display: flex;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.toggle-user-menu-settings svg {
+  margin-right: 0.5rem;
+}
+
+.toggle-user-menu-logout {
+  display: flex;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.toggle-user-menu-logout svg {
+  margin-right: 0.5rem;
+}

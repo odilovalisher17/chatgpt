@@ -1,0 +1,83 @@
+.toggle-menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(53, 53, 53, 0.5);
+  z-index: 12;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.toggle-modul {
+  width: 350px;
+  height: 200px;
+  background: white;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.toggle-modul-header {
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.toggle-modul-input input {
+  padding: 10px 10px;
+  border-radius: 10px;
+  border: 2px transparent solid;
+  box-shadow: 0 4px 45px rgba(0, 0, 0, 0.25);
+  font-size: 18px;
+  outline: none;
+  margin-bottom: 1.5rem;
+}
+
+.toggle-modul-input input:focus {
+  border: 2px greenyellow solid;
+  box-shadow: 0 4px 45px rgba(8, 251, 0, 0.4) !important;
+}
+
+.toggle-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.toggle-btn {
+  padding: 12px 20px;
+  width: 100px;
+  margin: 0 10px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  font-size: 16px;
+  text-align: center;
+}
+
+.toggle-btn:hover {
+  transition: all 0.3s;
+  transform: scale(1.09);
+}
+
+.toggle-cancel {
+  background: rgb(212, 212, 212);
+}
+
+.toggle-save {
+  background: rgb(0, 128, 0);
+  color: white;
+}
+
+.toggle-modul-confirm {
+  font-size: 18px;
+  padding: 0 3rem;
+  padding-bottom: 1.5rem;
+}
+
+.toggle-delete-btn {
+  background: rgb(186, 1, 1);
+  color: white;
+}

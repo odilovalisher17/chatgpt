@@ -1,0 +1,17 @@
+.chatTitlesList {
+  background-color: rgba(32, 33, 35);
+  min-width: 300px;
+  width: 300px;
+  overflow-y: hidden;
+}
+
+@media screen and (max-width: 728px) {
+  .chatTitlesList {
+    position: absolute;
+    top: 0px;
+    z-index: 15;
+    height: 100vh;
+    left: -300px;
+    transition: all 0.5s ease-in-out;
+  }
+}

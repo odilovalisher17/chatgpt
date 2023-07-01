@@ -1,0 +1,26 @@
+.chat-messages {
+  height: 88vh;
+  overflow-y: auto;
+  white-space: pre-wrap; /* Preserve whitespace and line breaks, and allow word wrapping */
+  word-wrap: break-word; /* Break long words */
+  font-size: 19px;
+}
+
+.chat-messages::-webkit-scrollbar {
+  width: 0.2rem;
+}
+
+.chat-messages::-webkit-scrollbar-thumb {
+  max-height: 50px !important;
+  background-color: rgba(217, 217, 227, 0.8);
+  border-color: rgba(255, 255, 255, var(--tw-border-opacity));
+  border-radius: 9999px;
+  border-width: 1px;
+}
+
+@media screen and (max-width: 728px) {
+  .chat-messages {
+    height: 80vh;
+    font-size: 1rem !important;
+  }
+}

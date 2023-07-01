@@ -1,0 +1,15 @@
+.chatGround {
+  width: 100%;
+  background: rgba(52, 53, 65);
+  overflow-x: hidden;
+  position: relative;
+  overflow-y: none !important;
+}
+
+@media screen and (max-width: 728px) {
+  .chatGround {
+    position: absolute;
+    height: 100vh;
+    padding-top: 42px;
+  }
+}

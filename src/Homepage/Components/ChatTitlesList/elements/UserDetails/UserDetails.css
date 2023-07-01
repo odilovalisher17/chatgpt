@@ -1,0 +1,39 @@
+.user-details {
+  margin: 0.6rem 8px;
+  margin-top: 0 !important;
+  border-radius: 10px;
+  background-color: rgba(81, 82, 84, 0.8);
+  padding: 7px;
+  padding-right: 1rem !important;
+  display: flex;
+  align-items: center;
+  transition: all 0.3s ease-out;
+  cursor: pointer;
+}
+
+.user-img {
+  height: 50px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(133, 248, 133);
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 900;
+  color: green;
+}
+
+.user-settings {
+  padding: 0 1rem;
+  color: white;
+  font-weight: 800;
+}
+
+.user-options {
+  margin-left: auto;
+}
+
+.user-options svg {
+  color: white;
+}
